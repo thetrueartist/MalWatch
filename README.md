@@ -98,29 +98,6 @@ MalWatch uses multiple analysis techniques to identify suspicious files:
     │   │   └── metadata.json
     │   └── ...
 
-## Use Cases
-
-### Malware Analysis
-
-- Dynamic analysis in sandboxes
-- Incident response investigations
-- Threat hunting operations
-- Behavioral analysis of unknown samples
-
-### Security Research
-
-- Malware tracking
-- Persistence mechanism detection
-- Dropper behavior analysis
-- Campaign attribution research
-
-### Enterprise Security
-
-- Endpoint detection and response (EDR)
-- Threat intelligence collection
-- Security operations center (SOC) workflows
-- Compliance and audit trails
-
 ## Configuration
 
 ### Command Line Options
