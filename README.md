@@ -109,7 +109,7 @@ MalWatch uses multiple analysis techniques to identify suspicious files:
 
 ### Security Research
 
-- Malware family tracking
+- Malware tracking
 - Persistence mechanism detection
 - Dropper behavior analysis
 - Campaign attribution research
@@ -145,7 +145,7 @@ MalWatch uses multiple analysis techniques to identify suspicious files:
 
 | Factor                   | Score | Description                         |
 |--------------------------|-------|-------------------------------------|
-| Suspicious extension     | +30   | .exe, .dll, .scr, .bat, etc.        |
+| Suspicious extension     | +30   | .exe, .dll, .ps1, .bat, etc.        |
 | Very high entropy (>7.5) | +35   | Likely packed/encrypted             |
 | High entropy (>7.0)      | +25   | Possibly packed                     |
 | High randomness (chi²>400) | +30 | Statistical anomaly                 |
@@ -172,7 +172,6 @@ MalWatch uses multiple analysis techniques to identify suspicious files:
 Contributions welcome! Areas for improvement:
 
 - YARA rule integration
-- Network monitoring integration
 - Additional ML models
 - Performance optimizations
 - UI/dashboard
@@ -183,4 +182,4 @@ MIT License - see LICENSE file for details
 
 ## Acknowledgments
 
-Built for the security research community. Special thanks to malware researchers and incident responders who provided feedback and testing.
+Built for the security research community after I couldn't find an alternative :p 
